@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sandwich Maker</title>
+	<link href="sandwich.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+	<h1>Build Your Sandwich</h1>
+
+	<label>Bread: </label>
+	<select multiple="false" id="bread">
+		<option>Wheat</option>
+		<option>Rye</option>
+		<option>GF</option>
+		<option>Pretzel</option>
+	</select>
+
+	<label>Meat: </label>
+	<select multiple="true" id="meat">
+		<option>Pastrami</option>
+		<option>Ham</option>
+		<option>Turkey</option>
+		<option>Roast Beef</option>
+		<option>None</option>
+	</select>
+
+	<label>Cheese: </label>
+	<select multiple="true" id="cheese">
+		<option>Provolone</option>
+		<option>American</option>
+		<option>Cheddar</option>
+		<option>Swiss</option>
+		<option>None</option>
+	</select>
+
+	<label>Condiments: </label>
+	<select multiple="true" id="sauce">
+		<option>Mustard</option>
+		<option>Mayo</option>
+		<option>Horseradish</option>
+		<option>Avocado Ranch</option>
+		<option>None</option>
+	</select>
+
+	<label>Veggies: </label>
+	<select multiple="true" id="veggies">
+		<option>Spinach</option>
+		<option>Tomato</option>
+		<option>Roasted Peppers</option>
+		<option>None</option>
+	</select>
+
+	<div id="final">
+		<label>Final Price: </label><div id="finalPrice"></div>
+	</div>
+
+
+<script type="text/javascript" src="javascripts/sandwichmaker.js"></script>
+<script type="text/javascript" src="javascripts/meat.js"></script>
+<script type="text/javascript" src="javascripts/bread.js"></script>
+<script type="text/javascript" src="javascripts/handlers.js"></script>
+<script type="text/javascript" src="javascripts/cheese.js"></script>
+<script type="text/javascript" src="javascripts/condiments.js"></script>
+<script type="text/javascript" src="javascripts/veggies.js"></script>
+
+</body>
+</html>

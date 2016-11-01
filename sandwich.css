@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	background-color: gray;
+}
+h1{
+	color: black;
+}
+label {
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: blue;
+	margin-left: 10px;
+}
+
+#final {
+	border: 2px solid blue;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: orange;
+	margin: 0 auto;
+	width: 40%;
+	padding: 20px;
+}
